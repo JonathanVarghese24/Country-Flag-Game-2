@@ -1,6 +1,6 @@
 //
 //  QuestionView.swift
-//  Country Flag Game
+//  Country Flag Game 2
 //
 //  Created by Jonathan Varghese on 2/13/24.
 //

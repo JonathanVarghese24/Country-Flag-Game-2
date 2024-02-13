@@ -15,6 +15,9 @@
 		D88CEF8E2B7BD4B800661908 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF8D2B7BD4B800661908 /* CustomButton.swift */; };
 		D88CEF902B7BD4DA00661908 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF8F2B7BD4DA00661908 /* ProgressBar.swift */; };
 		D88CEF922B7BD4FA00661908 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF912B7BD4FA00661908 /* AnswerRow.swift */; };
+		D88CEF962B7BD57500661908 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF952B7BD57500661908 /* Question.swift */; };
+		D88CEF982B7BD59100661908 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF972B7BD59100661908 /* Data.swift */; };
+		D88CEF9A2B7BD5B200661908 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CEF992B7BD5B200661908 /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		D88CEF8D2B7BD4B800661908 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D88CEF8F2B7BD4DA00661908 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		D88CEF912B7BD4FA00661908 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		D88CEF952B7BD57500661908 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D88CEF972B7BD59100661908 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D88CEF992B7BD5B200661908 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				D88CEF802B7BD38500661908 /* Preview Content */,
 				D88CEF892B7BD3F300661908 /* Views */,
 				D88CEF8C2B7BD49B00661908 /* Components */,
+				D88CEF942B7BD56400661908 /* Models */,
 				D88CEF7E2B7BD38500661908 /* Assets.xcassets */,
 			);
 			path = "Country Flag Game 2";
@@ -93,6 +100,16 @@
 				D88CEF912B7BD4FA00661908 /* AnswerRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D88CEF942B7BD56400661908 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D88CEF952B7BD57500661908 /* Question.swift */,
+				D88CEF972B7BD59100661908 /* Data.swift */,
+				D88CEF992B7BD5B200661908 /* GameManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88CEF8E2B7BD4B800661908 /* CustomButton.swift in Sources */,
+				D88CEF9A2B7BD5B200661908 /* GameManager.swift in Sources */,
 				D88CEF7D2B7BD38400661908 /* ContentView.swift in Sources */,
 				D88CEF8B2B7BD43400661908 /* QuestionView.swift in Sources */,
 				D88CEF902B7BD4DA00661908 /* ProgressBar.swift in Sources */,
 				D88CEF922B7BD4FA00661908 /* AnswerRow.swift in Sources */,
+				D88CEF962B7BD57500661908 /* Question.swift in Sources */,
 				D88CEF7B2B7BD38400661908 /* Country_Flag_Game_2App.swift in Sources */,
+				D88CEF982B7BD59100661908 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
